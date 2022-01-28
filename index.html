@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 5px 15px;
+            font-size: 20px;
+        }
+        div {
+            margin-bottom: 5px;
+        }
+        #out {
+            margin-bottom: 0;
+        }
+    </style>
+    <h1>Password generator</h1>
+    <div><label><input type="checkbox" id="lowercase" checked>lowercase</label></div>
+    <div><label><input type="checkbox" id="uppercase">uppercase</label></div>
+    <div><label><input type="checkbox" id="digits">digits</label></div>
+    <div><label>Count of letters: <input type="text" id="count-of-letters"></label></div>
+    <button id="btn">Get password</button>
+    <hr>
+    <div id="out"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
